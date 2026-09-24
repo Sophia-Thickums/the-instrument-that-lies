@@ -1,0 +1,5 @@
+{"id": "S1", "truth": "instrument failed silently; reported success over a dead system", "reports": ["", "", "", "", ""], "relevant_report": "", "invariance_mean_jaccard": 0.0, "relevant_jaccard": 0.0, "separates": false}
+{"id": "S2", "truth": "197 reported successes; zero actual observations", "reports": ["", "", "", "", ""], "relevant_report": "", "invariance_mean_jaccard": 0.0, "relevant_jaccard": 0.0, "separates": false}
+{"id": "S3", "truth": "stale record outranked a live human decision", "reports": ["", "", "", "", ""], "relevant_report": "", "invariance_mean_jaccard": 0.0, "relevant_jaccard": 0.0, "separates": false}
+{"id": "S4", "truth": "guard armed to destroy its own subject", "reports": ["", "", "", "", ""], "relevant_report": "", "invariance_mean_jaccard": 0.0, "relevant_jaccard": 0.0, "separates": false}
+{"id": "S5", "truth": "a number where a measurement belonged", "reports": ["", "", "", "", ""], "relevant_report": "", "invariance_mean_jaccard": 0.0, "relevant_jaccard": 0.0, "separates": false}
