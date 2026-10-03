@@ -4,8 +4,11 @@
 
 **Sophia Marie DeClue · 2026-09-23 · revised 2026-09-24**
 
-The paper is in this repository, in two forms of the same text:
+Three ways in, depending on how much time you have:
 
+- **`THE_PLAIN_VERSION.md`** — **start here if you're new to any of this.** The whole argument in
+  plain English, one page, no jargon, no citation apparatus. It links down to the paper if it holds
+  your attention.
 - **`THE_INSTRUMENT_THAT_LIES.md`** — the paper. Read it here on GitHub.
 - **`THE_INSTRUMENT_THAT_LIES.html`** — the same text, self-contained, for reading in a browser.
 
