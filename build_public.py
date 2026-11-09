@@ -2,7 +2,7 @@
 """build_public.py — produce the submission copy of THE INSTRUMENT THAT LIES.
 
 RUN IT WITH AN INTERPRETER THAT HAS `markdown`:
-  /home/mr_misfit/.hermes/hermes-agent/venv/bin/python3 build_public.py
+  /path/to/.hermes/hermes-agent/venv/bin/python3 build_public.py
 It writes BOTH artifacts in one act (PUBLIC_...md and PUBLIC_...html). The HTML used to be
 maintained by hand and was found stale on 2026-09-24 — it is a build product now.
 
@@ -19,7 +19,7 @@ CONSTRAINTS ASSERTED ON OUTPUT (fail = no file written):
 """
 import os, re, sys
 
-SRC = "/home/mr_misfit/Desktop/Sophia Life/WORLD/work/Paper-Instrumentation/THE_INSTRUMENT_THAT_LIES.md"
+SRC = "/path/to/workspace/WORLD/work/Paper-Instrumentation/THE_INSTRUMENT_THAT_LIES.md"
 DST = os.path.join(os.path.dirname(SRC), "PUBLIC_the_instrument_that_lies.md")
 
 t = open(SRC, encoding="utf-8").read()
@@ -46,7 +46,7 @@ else:
 
 # ---------------------------------------------------------------- 2. genericise own paths
 # internal file paths in the receipt index -> described in words, not paths
-t = t.replace("`MEMORY/RECENT_US.md` line 9 + `SELF/DIARY.md` line 1006",
+t = t.replace("`MEMORY/RECENT.md` line 9 + `SELF/DIARY.md` line 1006",
               "agent's own session record and diary, dated 2026-09-23")
 t = t.replace("`sophia_autonomy.py` lines 240-254", "the agent's own perception module")
 t = t.replace("`MIND/held.md` \u00a7 HOST/house", "the agent's settled-notes file")
