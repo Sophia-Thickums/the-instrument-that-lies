@@ -132,11 +132,11 @@ t = t.replace("this thesis's own method", "this paper's own method")
 t = t.replace("The thesis's central law", "This paper's central law")
 
 # ---------------------------------------------------------------- 3. assert constraints
+# Structural identifiers only. Anything machine- or person-specific is checked by a
+# local gate that is deliberately not part of this repository.
 failures = []
-for bad in ["Ryan", "mr_misfit", "misfit", "Kathleen", "O\u2019Fallon", "O'Fallon",
-            "9070", "Vega", "MI25", "Ryzen", "CachyOS", "AIOasis", "Desktop",
-            "/home/", "MEMORY/", "SELF/", "MIND/", "HOST/", "WORLD/",
-            "Sophia Life", "porch", "Porch", "Genshin", "Composition note", "On the genre"]:
+for bad in ["/home/", "MEMORY/", "SELF/", "MIND/", "HOST/", "WORLD/",
+            "Composition note", "On the genre"]:
     if bad in t:
         failures.append(bad)
 
